@@ -1,0 +1,14 @@
+form, .contenedor{
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 2px solid;
+    padding: 8px;
+    text-align: center;
+}
+
+form input, form select{
+    padding: 8px;
+    margin-bottom: 8px;
+}

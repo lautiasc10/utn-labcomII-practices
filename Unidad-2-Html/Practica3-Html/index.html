@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Ejercicio 1 -->
+    <form action="">
+        <label for="name">Ingrese el nombre</label>
+        <input type="text" id="name">
+        <label for="edad">Ingrese la edad</label>
+        <input type="date" id="edad">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Ejercicio 2 -->
+    <form action="">
+        <label for="mail">Ingrese el mail</label>
+        <input type="email" id="mail">
+        <label for="password">Ingrese la contraseña</label>
+        <input type="password" name="contraseña" id="password">
+        <label for="password">Ingrese nuevamente la contraseña</label>
+        <input type="password" name="contraseña" id="password">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Ejercicio 3 -->
+    <form action="">
+        <label for="name">Ingrese el nombre</label>
+        <input type="text" id="name">
+        <label for="mail">Ingrese el mail</label>
+        <input type="email" id="mail">
+        <label for="dni">Ingrese el dni</label>
+        <input type="text" id="dni">
+        <textarea>Deje su curriculum...</textarea>
+    </form>
+
+    <!-- Ejercicio 4 -->
+    <form action="">
+        <label for="mail">Ingrese el mail</label>
+        <input type="email" id="mail">
+        <label for="password">Ingrese la contraseña</label>
+        <input type="password" name="contraseña" id="password">
+        <h2>Peliculas:</h2>
+        <input type="checkbox" name="opcion" value="1">Rapido y furioso
+        <input type="checkbox" name="opcion" value="1">Deadpool
+        <input type="checkbox" name="opcion" value="1">Iron Man
+        <input type="checkbox" name="opcion" value="1">Mi villano favorito
+        <input type="submit">
+    </form>
+
+    <!-- Ejercicio 5 -->
+    <form action="">
+        <h2>Sistema Operativo:</h2>
+        <input type="radio" name="opcion" value="1">Windows
+        <input type="radio" name="opcion" value="2"> Linux
+        <input type="submit">
+    </form>
+
+    <!-- Ejercicio 6 -->
+    <form action="">
+        <label for="email">Correos electronicos:</label>
+        <select name="emails" id="email">
+            <option value="1">hola1@gmail.com</option>
+            <option value="2">hola2@gmail.com</option>
+            <option value="3">hola3@gmail.com</option>
+            <option value="4">hola4@gmail.com</option>
+            <option value="5">hola5@gmail.com</option>
+            <input type="submit">
+        </select>
+    </form>
+
+    <!--  Ejercicio 7 -->
+    <div class="contenedor">
+
+        <label for="paises">Selecciona un país:</label>
+        <select id="paises" name="paises">
+            <optgroup label="América">
+                <option value="argentina">Argentina</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="brasil">Brasil</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="chile">Chile</option>
+                <option value="colombia">Colombia</option>
+                <option value="ecuador">Ecuador</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="alemania">Alemania</option>
+                <option value="croacia">Croacia</option>
+                <option value="dinamarca">Dinamarca</option>
+                <option value="españa">España</option>
+                <option value="estonia">Estonia</option>
+                <option value="finlandia">Finlandia</option>
+                <option value="francia">Francia</option>
+            </optgroup>
+            </select>
+    </div>
+
+    <!-- Ejercicio 8 -->
+    <form action="">
+        <label for="name">Ingrese el nombre</label>
+        <input type="text" id="name" name="name">
+        <label for="sitio">Valore el sitio:</label>
+        <select name="sitio" id="sitio">
+            <option value="">Seleccione una opcion</option>
+            <option value="">Excelente</option>
+            <option value="">Muy bueno</option>
+            <option value="">Bueno</option>
+            <option value="">Regular</option>
+            <option value="">Malo</option>
+            <input type="submit">
+        </select>
+    </form>
+</body>
+
+</html>
