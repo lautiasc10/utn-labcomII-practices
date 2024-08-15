@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f4f7;
+}
+
+.container{
+    width: 420px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px 16px;
+    text-align: center;
+    border:  1px solid #e7cdcdb9;
+    border-radius: 8px;
+    box-shadow:  0 0 10px #e2d5d5;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 240px;
+}
+
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    padding: 6px;
+}
+input{
+    padding: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 17px;
+    height: auto;
+}
+
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: #aca2a2;
+}
+input:focus::placeholder{
+    color: #ccc;
+}
+
+.btn{
+    margin: 16px 0 ;
+    background-color: #1877f2;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(89, 89, 221);
+    cursor: pointer;
+}
+
+a{
+    color: #1877f2;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.enlace{
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+
+
+
+/* Edit del footer */
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+    }
+    
+    footer {
+    padding-top: 270px;
+    display: block;
+    unicode-bidi: isolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    list-style: none;
+    }
+    
+    .idiomas {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    li {
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 0 0 0 1px;
+    display: inline-block;
+    unicode-bidi: isolate;
+        color: #8a8d91;
+    }
+    
+    li:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .linea {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    }
+
+
